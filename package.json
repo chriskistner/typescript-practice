@@ -1,0 +1,23 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "Typescript practice projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriskistner/typescript-practice.git"
+  },
+  "author": "Chris Kistner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriskistner/typescript-practice/issues"
+  },
+  "homepage": "https://github.com/chriskistner/typescript-practice#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
