@@ -1,15 +1,5 @@
-let userInput: unknown;
-let userName: string;
+const userFullName = "Christopher Kistner";
 
-userInput = 5;
-userInput = "5";
+const testButton = document.querySelector("button")! as HTMLButtonElement;
 
-if (typeof userName === "string") {
-    userInput = userName;
-}
-
-function generateError(message: string, code: number): never {
-    throw {message, errorCode: code};
-}
-
-generateError("An error has occured", 500);
+testButton.addEventListener("click", () => console.log(userFullName));
